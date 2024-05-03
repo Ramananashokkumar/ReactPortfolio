@@ -27,8 +27,8 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "Sakthivel",
-    lastName: "Murugan",
+    firstName: "Ramanan",
+    lastName: "A",
     initials: "js", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Devops Engineer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
@@ -49,7 +49,7 @@ export const info = {
         },
         {
             emoji: "📧",
-            text: "sakthi123@gmail.com"
+            text: "aramananashokkumar@gmail.com"
         }
     ],
     socials: [
@@ -82,7 +82,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Sakthi. I'm a prefinal year student. I studied KIT, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Ramanan. I'm a prefinal year student. I studied KIT, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
