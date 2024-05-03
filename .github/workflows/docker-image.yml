@@ -27,8 +27,8 @@ jobs:
         platforms: linux/amd64,linux/arm64
         push: true
         tags: |
-          aramanan21/ReactPortfolio:latest
-          aramanan21/ReactPortfolio:${{ github.sha }}
+          aramanan21/reactportfolio:latest
+          aramanan21/reactportfolio:${{ github.sha }}
       env:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
