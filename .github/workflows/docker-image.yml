@@ -3,7 +3,7 @@ name: Build Docker Image
 on:
   push:
     branches:
-      - main  # Change this to your main branch name
+      - main
 
 jobs:
   build:
@@ -23,12 +23,12 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         context: .
-        file: Dockerfile  # Path to your Dockerfile
-        platforms: linux/amd64,linux/arm64  # Adjust for your target platforms
+        file: Dockerfile
+        platforms: linux/amd64,linux/arm64
         push: true
         tags: |
-          yourdockerhubusername/yourportfolio:latest
-          yourdockerhubusername/yourportfolio:${{ github.sha }}
+          aramanan21/ReactPortfolio:latest
+          aramanan21/ReactPortfolio:${{ github.sha }}
       env:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
